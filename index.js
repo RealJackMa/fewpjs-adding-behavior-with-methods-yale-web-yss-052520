@@ -6,35 +6,34 @@ class Cat {
         this.sex = sex
     }
 
-    speak(){
+    speak() {
         return `${this.name} says meow!`
     }
 }
 
-class Dog{
+class Dog {
     constructor(name, sex) {
         this.name = name
         this.sex = sex
     }
 
-    speak(){
+    speak() {
         return `${this.name} says woof!`
     }
 }
 
-class Bird{
+class Bird {
     constructor(name, sex) {
         this.name = name
         this.sex = sex
     }
 
-    speak(){
+    speak() {
         if (this.sex == "male") {
             return `It's me! ${this.name}, the parrot!`
         }
         else {
             return `${this.name} says squawk!`
         }
-
     }
 }
